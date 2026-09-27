@@ -1,2 +1,2 @@
 # .github
-F1gures GitHub organization profile and templates.
+f1gures public-facing GitHub organization profile and templates.
