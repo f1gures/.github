@@ -1,0 +1,30 @@
+name: Feature
+description: Request new functionality or a change to existing behaviour
+type: Feature
+projects: ["f1gures/4"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe what is needed and why, e.g. the problem it solves or who asked for it.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance criteria
+      description: List the outcomes that mark this feature as done.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Set these in the sidebar before submitting.
+      options:
+        - label: "Apply at least one `area:` label"
+          required: true
+        - label: "Set **Priority**"
+          required: true
+        - label: "Set **Effort**"
+          required: true
+        - label: "Set **Start date** and **Target date**, if known"
