@@ -6,12 +6,12 @@
 
   <h3>Maps for your financial life.</h3>
 
-  <p>Every route priced before you commit. Every number checked against Singapore's real rules.</p>
+  <p>Financial planning software for Singapore households and their advisors. It shows what a decision will cost before it's made, with Singapore's retirement savings, tax and property rules applied.</p>
 
   <p>
     <a href="https://f1gures.com/">Website</a> ·
     <a href="https://f1gures.com/features.html">Features</a> ·
-    <a href="https://f1gures.com/workspace.html">The Workspace</a> ·
+    <a href="https://f1gures.com/workspace.html">For advisors</a> ·
     <a href="https://f1gures.com/trust.html">Trust</a> ·
     <a href="https://f1gures.com/about.html">About</a>
   </p>
@@ -19,40 +19,37 @@
 
 ## About f1gures
 
-f1gures is a financial planning platform built in Singapore. It puts a household's CPF, bank accounts, investments, insurance, property and loans in one view, and prices every goal and decision against Singapore's actual rules before anyone commits to it.
+A household's money works as one system, but it's usually sold as separate products by separate people, none of whom can see the whole picture. Buying a home changes how much is left for a car, and the car changes the retirement date.
 
-Money is one system with many trade-offs, but it gets sold as five separate products by five separate people, none of whom can see the other four. Buying a home affects the car you can afford, and the car affects when you can retire. f1gures works out what each decision does to the others, in dollars and in years, and a licensed advisor makes the call.
+f1gures puts CPF (Singapore's compulsory savings scheme for retirement, housing and healthcare), bank accounts, investments, insurance, property and loans in one place, and shows what each decision does to the rest, in dollars and in years.
 
-## What we build
+## What we're building
 
-### For households
+### Products
 
-- One dashboard for every account, asset and obligation.
-- Forecasts that flag the tax bill before it lands and the refinance window while it's still open.
-- Routes for every goal, each priced and ranked on fit before you choose one.
+- A dashboard that each household shares with their advisor. It covers every account, asset and obligation, and its forecasts flag events such as a tax bill or a mortgage refinance window before they arrive.
+- [The Workspace](https://f1gures.com/workspace.html), a planning tool for financial advisors. One structured conversation with a client, about an hour long, produces a month-by-month plan to life expectancy, with the options for each goal costed and compared.
+### Under the hood
 
-### For financial advisors
-
-[The Workspace](https://f1gures.com/workspace.html) turns one structured Client Discovery conversation into a complete month-by-month plan to life expectancy.
-
-- It checks the factfind against the rules as the advisor fills it in, and cites the rule for anything it flags.
-- We maintain the CPF, SRS, income tax, property, motor and medical rules centrally, so no advisor has to keep a private spreadsheet that goes stale the week a rule changes.
-- Every figure traces back to the assumption behind it. When a client or supervisor asks where a number came from, the answer is in the file.
+- A projection engine that models each household's finances month by month to life expectancy.
+- A rules engine for Singapore's CPF, income tax, property, motor vehicle and healthcare rules. We maintain it centrally, so every advisor applies the same rules the same way. It checks a client's details as the advisor enters them and cites the rule behind each flag.
+- Every figure traces back to something the household told us or to a connected data source. Property and car prices come from real transaction data.
 
 ## We're the map, not the shop
 
-- We don't sell financial products, and we don't earn more when you buy a particular one. No bank, insurer or product manufacturer owns us, and we take no placement fees.
-- Personalised recommendations come from a licensed advisor. We do the modelling, and the advisor brings the judgement and the accountability.
-- We never sell your data, and partners never see raw account information.
-- You can export your data, delete your account or withdraw consent at any time. We're PDPA compliant, and your data is stored in Singapore.
+These principles decide what we build. A feature that doesn't meet them doesn't ship.
 
-The [trust page](https://f1gures.com/trust.html) explains how we work and how we make money.
+- No bank, insurer or product manufacturer owns f1gures. We don't sell financial products or take placement fees, and we rank options on fit alone, so no partner can pay to appear higher.
+- Personalised recommendations come only from a licensed advisor, in line with how Singapore regulates financial advice.
+- We collect only the data we need. We never sell it, and partners never see raw account information.
+- Users can export their data, delete their account or withdraw consent at any time. We store data in Singapore, log every access and comply with Singapore's Personal Data Protection Act (PDPA).
 
-## Get in touch
+The [trust page](https://f1gures.com/trust.html) covers these principles in full, including how f1gures makes money.
 
-- For your own finances, start with the free [financial health score](https://f1gures.com/signup.html). You don't need an account, and nothing leaves your browser.
-- Advisors and partners can book a demo at [partners@f1gures.com](mailto:partners@f1gures.com?subject=Demo%20request).
-- Send data and privacy requests to [legal_dataprivacy@f1gures.com](mailto:legal_dataprivacy@f1gures.com).
-- For anything else, write to [hello@f1gures.com](mailto:hello@f1gures.com).
+## Contact
+
+- Partner with f1gures or see a demo: [partners@f1gures.com](mailto:partners@f1gures.com?subject=Demo%20request).
+- Legal and data protection: [legal_dataprivacy@f1gures.com](mailto:legal_dataprivacy@f1gures.com)
+- Everything else: [hello@f1gures.com](mailto:hello@f1gures.com).
 
 <sub>f1gures Pte. Ltd. · Registered in Singapore · Based at NUS Enterprise Block71</sub>
