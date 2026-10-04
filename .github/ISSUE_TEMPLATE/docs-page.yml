@@ -1,0 +1,42 @@
+# The Report an issue button on every page of a docs site links here, with the issue title and the page field filled in through query parameters. The button is overrides/partials/actions.html in f1gures/f1gures-docs. Renaming this file or the page field id breaks the button on every docs site.
+name: Docs Page
+description: Report a problem with a page on a docs site, e.g. wrong content or a broken link
+title: "Page issue: "
+type: Bug
+projects: ["f1gures/4"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The URL of the page. The **Report an issue** button on the page fills it in.
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      description: Select every reason that applies.
+      multiple: true
+      options:
+        - Wrong or outdated content
+        - Missing information
+        - Unclear or hard to follow
+        - Broken link
+        - Broken rendering, e.g. a code block, table or diagram
+        - Typo or wording
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the problem and where it is on the page, e.g. the section heading or the step number.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested fix
+      description: Describe the correct content or the change, if known.
