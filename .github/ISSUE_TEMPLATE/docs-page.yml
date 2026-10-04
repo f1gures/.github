@@ -1,7 +1,7 @@
 # The Report an issue button on every page of a docs site links here, with the issue title and the page field filled in through query parameters. The button is overrides/partials/actions.html in f1gures/f1gures-docs. Renaming this file or the page field id breaks the button on every docs site.
 name: Docs Page
 description: Report a problem with a page on a docs site, e.g. wrong content or a broken link
-title: "Page issue: "
+title: "Page issue:"
 type: Bug
 projects: ["f1gures/4"]
 body:
